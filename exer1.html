@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <p id="teste">text</p>
+
+        <ul>
+            <li class="itens">item 1</li>
+            <li class="itens">item 2</li>
+            <li class="itens">item 3</li>
+            <li>item 4</li>
+            <li>item 5</li>
+            <li>item 6</li>
+            
+        </ul>
+        <div >
+
+        </div>
+    </header>
+    <script>
+        document.getElementById("teste")
+        document.getElementsByClassName("itens")
+        document.getElementsByTagName("li")
+        document.querySelector("li")
+        document.querySelectorAll("li")
+        document.getElementById("teste").textContent="titulo"
+        document.getElementById("teste").setAttribute("class", "novaclass")
+        document.querySelector(".itens").style.color="red"
+       var element = document.createElement("p")
+       element.textContent="novo paragrafo"
+       document.querySelector("div").appendChild(element)
+       document.querySelector("div").removeChild(element)
+
+    </script>
+    
+</body>
+</html>
